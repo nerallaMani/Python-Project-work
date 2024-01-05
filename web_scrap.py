@@ -1,3 +1,14 @@
+'''
+
+Web Scraping Assignment:
+Objective: Extract live stock market data from a financial website.
+Tasks:
+Write a Python script using BeautifulSoup or Scrapy to scrape real-time stock prices and other relevant data (like volume, market cap) from a financial website.
+Store the scraped data into a Pandas DataFrame.
+Implement error handling and consider the legal aspects of web scraping.
+Set up a cron job or a scheduler to run this script every hour.
+
+'''
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
